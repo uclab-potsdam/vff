@@ -1,0 +1,50 @@
+h1 {
+	font-family: $font-headline;
+	line-height: 1.1;
+	font-weight: 900;
+	color: rgb(217,251,25);
+	font-size: 5rem;
+	max-width: 500px;
+	text-decoration: underline;
+	margin-bottom: $spacing;
+}
+
+h2 {
+	font-family: $font-headline;
+	line-height: 1.1;
+	font-weight: 900;
+	color: rgb(217,251,25);
+	font-size: 3rem;
+	margin-bottom: $spacing / 2;
+}
+
+p, ul {
+	font-weight: 500;
+}
+
+ul {
+	list-style: none;
+
+	li {
+		padding-left: 2em;
+  	text-indent: -0.7em;
+
+  	&::before {
+		  content: "–";
+		  font-weight: 700;
+		  margin-right: 0.5em;
+		  color: rgb(217,251,25); /* or whatever color you prefer */
+		}
+	}
+}
+
+.btn {
+	background-color: rgb(217,251,25);
+	padding: $spacing / 2 $spacing;
+	font-family: $font-headline;
+	display: inline-block;
+	letter-spacing: 0.05em;
+	font-weight: 700;
+	font-size: 1.3rem;
+	margin: $spacing 0;
+}
