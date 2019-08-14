@@ -1,8 +1,6 @@
-# Quanta Compass
+# Visualisation for Climate
 
-Quanta Magazine Map of Mathematics
-
-https://quanta-math-map.netlify.com/
+http://visualisation-for-future.netlify.com
 
 ## Build Setup
 
