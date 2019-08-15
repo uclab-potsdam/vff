@@ -1,17 +1,17 @@
 <template>
   <div class="page-wrapper">
     <header>
-      <h1>Visualisation for Climate</h1>
+      <h1>Vis for Future</h1>
       <p>
-        Visualisation can help making the #climatecrisis visible, tangible and understandable.<br />
-        For the Globalstrike the UCLab is running a visualisation competition.<br />
-        Hand-in your data visualisation that is</p>
+        Visualization can help make the climate crisis visible, tangible and understandable.<br />
+        For the global climate strike the ᴜᴄʟᴀʙ is running an international visualization competition.<br />
+        Hand in your climate visualization project that is</p>
         <ul>
           <li>innovative</li>
           <li>actionable</li>
           <li>understandable</li>
         </ul>
-        <p>and win prices up to 1000 Euro.
+        <p>and win prizes up to 1000 Euro.
       </p>
     </header>
     <section>
