@@ -7,8 +7,9 @@ h1 {
 	color: $color-accent;
 	font-size: 5rem;
 	max-width: 500px;
-	text-decoration: underline;
-	margin-bottom: $spacing;
+	// text-decoration: underline;
+	background: linear-gradient(to top, transparent 0px, transparent 20px, $color-accent 20px, $color-accent 30px, transparent 30px);
+	display: inline;
 }
 
 h2 {

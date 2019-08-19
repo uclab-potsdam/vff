@@ -1,7 +1,7 @@
 <template>
   <div class="page-wrapper">
     <header>
-      <h1>Vis for Future</h1>
+      <div class="h1"><h1><span>Vis for</span> Future</h1></div>
       <p>
         Visualization can help make the climate crisis visible, tangible and understandable.<br />
         For the global climate strike the ᴜᴄʟᴀʙ is running an international visualization competition.<br />
@@ -51,12 +51,21 @@
   @import "~@/assets/style/global";
 
   .page-wrapper {
-    margin-top: 10vh;
+    margin: 10vh 0vh;
     min-height: 100vh;
     flex-direction: column;
 
     &.intro {
       min-height: 200vh;
+    }
+
+    .h1 {
+      max-width: 500px;
+      margin-bottom: $spacing;
+
+      span {
+        letter-spacing: -0.01em;
+      }
     }
   }
 </style>
