@@ -1,7 +1,8 @@
 <template>
   <div class="page-wrapper">
     <header>
-      <div class="h1"><h1><span>Vis for</span> Future</h1></div>
+      <div class="h1"><h1><span>Vis for</span><br>Future</h1></div>
+      <img src="~/assets/map.png"/>
     </header>
     <section>
       <p>
@@ -19,13 +20,13 @@
         Over the last few years a broad range of climate visualizations have already been created by scientists, journalists, designers, developers and artists, some of which were targeted at the public, while many are hidden in academic papers and reports requiring expert knowledge. Considering the severity and complexity of the climate crisis, we feel there is a need to up the game for visualization creators. With this competition we seek to put a spotlight on the ingenuity and impact that well-crafted data visualizations can have to communicate the causes and impacts of climate change and inform personal and political action.
       </p>
       <p>
-         To take part in the competition, submit your climate visualization project that is
-        <ul>
-          <li><b>innovative:</b> The data visualization employs original and creative ways of representing the complexities of climate change and its impacts.</li>
-          <li><b>actionable:</b> The visual representations are comprehensible for the intended audience and their visual design is inviting its use.</li>
-          <li><b>understandable:</b> The visualization offer insights that can directly inform and encourage personal and/or political transformations.</li>
-        </ul>
+        To take part in the competition, submit your climate visualization project that is
       </p>
+      <ul>
+        <li><b>innovative:</b> The data visualization employs original and creative ways of representing the complexities of climate change and its impacts.</li>
+        <li><b>actionable:</b> The visual representations are comprehensible for the intended audience and their visual design is inviting its use.</li>
+        <li><b>understandable:</b> The visualization offer insights that can directly inform and encourage personal and/or political transformations.</li>
+      </ul>
       <p>
         The submission is simple: you share basic information about the visualization including title, description, project team, publication date, a weblink, and type (commercial, academic, journalistic, independent). If the project is not in English, a description of the visualization's content is necessary. After the submission deadline our international jury of experienced climate scientists, communicators, and activists will review the submissions according to above criteria, and choose the winners. Winners can earn prizes of up to 500 €.<p>
       </p>
@@ -47,7 +48,7 @@
       <h2>Conditions</h2>
       <ul>
         <li>the visualization should be about climate change and/or its consequences</li>
-        <li>visualizations created by the organizers (UCLAB) are excluded from the competition</li>
+        <li>visualizations created by the organizers (ᴜᴄʟᴀʙ) are excluded from the competition</li>
         <li>projects can be submitted by teams, but we still need a single contact person</li>
         <li>multiple entries per person or team are permitted</li>
         <li>projects can also be nominated by people not involved in the project</li>
@@ -78,6 +79,22 @@
     min-height: 100vh;
     flex-direction: column;
 
+    header {
+      display: flex;
+      flex-direction: column;
+      // flex-wrap: wrap-reverse;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 500px;
+        height: auto;
+        margin: -$spacing * 1.6 0 $spacing / 2;
+        max-width: 80%;
+        z-index: -1;
+      }
+    }
+
     &.intro {
       min-height: 200vh;
     }
@@ -88,12 +105,16 @@
       align-items: center;
     }
 
-    p + p {
+    p {
+      hyphens: auto;
+    }
+
+    p + p, ul + p {
       margin-top: 1em;
     }
 
     .h1 {
-      max-width: 500px;
+      // max-width: 500px;
       margin-bottom: $spacing;
 
       span {
