@@ -2,44 +2,67 @@
   <div class="page-wrapper">
     <header>
       <div class="h1"><h1><span>Vis for</span> Future</h1></div>
-      <p>
-        Visualization can help make the climate crisis visible, tangible and understandable.<br />
-        For the global climate strike the ᴜᴄʟᴀʙ is running an international visualization competition.<br />
-        Hand in your climate visualization project that is</p>
-        <ul>
-          <li>innovative</li>
-          <li>actionable</li>
-          <li>understandable</li>
-        </ul>
-        <p>and win prizes up to 1000 Euro.
-      </p>
     </header>
     <section>
-      <h2>Enter the Competition</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.</p>
-      <span class="btn">Submit visualisation</span>
+      <p>
+        From 20-27 September 2019, millions of people worldwide will join the young climate protesters in a global climate strike to fight for climate justice. We are launching an international competition to gather innovative, understandable, and actionable visualizations that were created in the last three years. Winners will be selected by an international jury of climate scientists, communicators, and activists. All submissions including infographics, animations, and interactive visualizations will be listed on this open platform.
+      </p>
+    </section>
+    <section class="submit">
+      <span class="btn">Submit Visualisation</span>
     </section>
     <section>
-      <h2>Judges</h2>
-      <p>The list of judges will be anncounced by 4th September</p>
+      <p>
+        While climate change is a complex phenomenon with severe impacts for people and the environment, it is a human-made development, the trajectory of which can still be altered. The complexity of climate change requires new methods for making sense of scientific insights and communicating possible paths for action to various stakeholders and citizens. To better understand the dynamics of climate change and inform policy change, visualization is widely recognized as an indispensable tool for analysis and communication.
+      </p>
+      <p>
+        Over the last few years a broad range of climate visualizations have already been created by scientists, journalists, designers, developers and artists, some of which were targeted at the public, while many are hidden in academic papers and reports requiring expert knowledge. Considering the severity and complexity of the climate crisis, we feel there is a need to up the game for visualization creators. With this competition we seek to put a spotlight on the ingenuity and impact that well-crafted data visualizations can have to communicate the causes and impacts of climate change and inform personal and political action.
+      </p>
+      <p>
+         To take part in the competition, submit your climate visualization project that is
+        <ul>
+          <li><b>innovative:</b> The data visualization employs original and creative ways of representing the complexities of climate change and its impacts.</li>
+          <li><b>actionable:</b> The visual representations are comprehensible for the intended audience and their visual design is inviting its use.</li>
+          <li><b>understandable:</b> The visualization offer insights that can directly inform and encourage personal and/or political transformations.</li>
+        </ul>
+      </p>
+      <p>
+        The submission is simple: you share basic information about the visualization including title, description, project team, publication date, a weblink, and type (commercial, academic, journalistic, independent). If the project is not in English, a description of the visualization's content is necessary. After the submission deadline our international jury of experienced climate scientists, communicators, and activists will review the submissions according to above criteria, and choose the winners. Winners can earn prizes of up to 500 €.<p>
+      </p>
+    </section>
+    <section class="submit">
+      <span class="btn">Submit Visualisation</span>
     </section>
     <section>
-      <h2>Dates</h2>
+      <h2>Timeline</h2>
       <ul>
-        <li>20th August</li>
-        <li>20th September</li>
-        <li>27th September</li>
+        <li><b>20 Aug:</b> Call is launched</li>
+        <li><b>05 Sep:</b> Jury is published</li>
+        <li><b>20 Sep:</b> Submissions due</li>
+        <li><b>23 Sep:</b> All projects published</li>
+        <li><b>27 Sep:</b> Winners announced</li>
       </ul>
     </section>
     <section>
       <h2>Conditions</h2>
-      <p>The conditions are the following</p>
+      <ul>
+        <li>the visualization should be about climate change and/or its consequences</li>
+        <li>visualizations created by the organizers (UCLAB) are excluded from the competition</li>
+        <li>projects can be submitted by teams, but we still need a single contact person</li>
+        <li>multiple entries per person or team are permitted</li>
+        <li>projects can also be nominated by people not involved in the project</li>
+        <li>with submitting a project you're confirming to have the information published on this website</li>
+      </ul>
     </section>
-    <footer>
+    
+    <section>
+      <h2>Who are we</h2>
+      <p>We are a visualization research group at the University of Applied Sciences Potsdam. Our work revolves around data visualization with a particular focus on the challenges and questions arising from social, cultural, and technological transformations. While one of our recent projects focuses on climate change scenarios, we feel there is a broader need to contribute to the growing awareness and ongoing discussions about climate change via well-designed visualizations. Climate change poses new challenges for each and everyone of us and requires transformations in all sectors of our lives. With this competition, we hope to achieve an open process of knowledge transfer in which innovative visualizations inspire people to join in the climate movement and explore paths towards a more sustainable future.</p>
+    </section>
+    <!-- <footer>
       <h2>Imprint</h2>
       <p>The Visualisation for Climate Competition is organised by the Urban Complexity Lab at the FH Potsdam</p>
-    </footer>
+    </footer> -->
   </div>
 </template>
 
@@ -51,12 +74,22 @@
   @import "~@/assets/style/global";
 
   .page-wrapper {
-    margin: 10vh 0vh;
+    margin: 10vh $spacing / 2;
     min-height: 100vh;
     flex-direction: column;
 
     &.intro {
       min-height: 200vh;
+    }
+
+    .submit {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    p + p {
+      margin-top: 1em;
     }
 
     .h1 {
