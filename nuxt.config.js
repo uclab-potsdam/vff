@@ -2,7 +2,7 @@ module.exports = {
   head: {
     title: 'Visualisation for Climate Competition',
     htmlAttrs: {
-      lang: 'en-US',
+      lang: 'en-US'
     },
     meta: [
       { charset: 'utf-8' },
