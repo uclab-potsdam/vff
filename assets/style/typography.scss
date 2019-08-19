@@ -1,8 +1,10 @@
+$color-accent: #00ab3d;
+
 h1 {
 	font-family: $font-headline;
 	line-height: 1.1;
 	font-weight: 900;
-	color: rgb(217,251,25);
+	color: $color-accent;
 	font-size: 5rem;
 	max-width: 500px;
 	text-decoration: underline;
@@ -13,7 +15,7 @@ h2 {
 	font-family: $font-headline;
 	line-height: 1.1;
 	font-weight: 900;
-	color: rgb(217,251,25);
+	color: $color-accent;
 	font-size: 3rem;
 	margin-bottom: $spacing / 2;
 }
@@ -33,13 +35,14 @@ ul {
 		  content: "–";
 		  font-weight: 700;
 		  margin-right: 0.5em;
-		  color: rgb(217,251,25); /* or whatever color you prefer */
+		  color: $color-accent; /* or whatever color you prefer */
 		}
 	}
 }
 
 .btn {
-	background-color: rgb(217,251,25);
+	background-color: $color-accent;
+	color: white;
 	padding: $spacing / 2 $spacing;
 	font-family: $font-headline;
 	display: inline-block;
