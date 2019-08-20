@@ -1,8 +1,8 @@
 <template>
   <div class="page-wrapper">
-    <header>
-      <div class="h1"><h1><span>Vis for</span><br>Future</h1></div>
-      <img src="~/assets/map.png"/>
+    <header title="Visualisation for Future">
+      <hgroup class="logo"><h1><span>Vis for</span><br />Future</h1></hgroup>
+      <img src="~/assets/map.png" />
     </header>
     <section>
       <p>
@@ -23,9 +23,9 @@
         To take part in the competition, submit your climate visualization project that is
       </p>
       <ul>
-        <li><b>innovative:</b> The data visualization employs original and creative ways of representing the complexities of climate change and its impacts.</li>
-        <li><b>understandable:</b> The visual encodings are comprehensible for the intended audience and their interaction design is inviting its use.</li>
-        <li><b>actionable:</b> The visualization offers insights that can directly inform and encourage personal and/or political transformations.</li>
+        <li><strong>innovative:</strong> The data visualization employs original and creative ways of representing the complexities of climate change and its impacts.</li>
+        <li><strong>understandable:</strong> The visual encodings are comprehensible for the intended audience and their interaction design is inviting its use.</li>
+        <li><strong>actionable:</strong> The visualization offers insights that can directly inform and encourage personal and/or political transformations.</li>
       </ul>
       <p>
         The submission is simple: you share basic information about the visualization including title, description, project team, publication date, a weblink, and type (commercial, academic, journalistic, independent). If the project is not in English, a description of the visualization's content is necessary. After the submission deadline our international jury of experienced climate scientists, communicators, and activists will review the submissions according to above criteria, and choose the winners. Winners can earn prizes of up to 500 €.<p>
@@ -37,11 +37,11 @@
     <section>
       <h2>Timeline</h2>
       <ul>
-        <li><b>20 Aug:</b> Call is launched</li>
-        <li><b>05 Sep:</b> Jury is published</li>
-        <li><b>20 Sep:</b> Submissions due</li>
-        <li><b>23 Sep:</b> All projects published</li>
-        <li><b>27 Sep:</b> Winners announced</li>
+        <li><strong>20 Aug:</strong> Call is launched</li>
+        <li><strong>05 Sep:</strong> Jury is published</li>
+        <li><strong>20 Sep:</strong> Submissions due</li>
+        <li><strong>23 Sep:</strong> All projects published</li>
+        <li><strong>27 Sep:</strong> Winners announced</li>
       </ul>
     </section>
     <section>
@@ -54,11 +54,10 @@
         <li>with submitting a project you're confirming to have it published on this website</li>
       </ul>
     </section>
-    
     <section>
       <h2>Who are we</h2>
       <p>We are a <a href="http://uclab.fh-potsdam.de">visualization research group</a> at the <a href="https://www.fh-potsdam.de/">University of Applied Sciences Potsdam</a>. Our work revolves around data visualization with a particular focus on the challenges and questions arising from social, cultural, and technological transformations. While one of our recent projects focuses on climate change scenarios, we feel there is a broader need to contribute to the growing awareness and ongoing discussions about climate change via well-designed visualizations. Climate change poses new challenges for each and everyone of us and requires transformations in all sectors of our lives. With this competition, we hope to achieve an open process of knowledge transfer in which innovative visualizations inspire people to join in the climate movement and explore paths towards a more sustainable future.</p>
-			<p>If you have any questions, feel free to contact us: <a href="mailto:vff@fh-potsdam.de">vff@fh-potsdam.de</a></p>
+			<p>If you have any questions, feel free to contact us: <a href="&#0109;&#097;&#0105;&#0108;&#0116;&#0111;&#058;&#0118;&#0102;&#0102;&#064;&#0102;&#0104;&#045;&#0112;&#0111;&#0116;&#0115;&#0100;&#097;&#0109;&#046;&#0100;&#0101;">&#0118;&#0102;&#0102;&#064;&#0102;&#0104;&#045;&#0112;&#0111;&#0116;&#0115;&#0100;&#097;&#0109;&#046;&#0100;&#0101;</a></p>
     </section>
     <footer>
 			<p>
@@ -67,7 +66,7 @@
 			</p>
       <p>
 				<a href="https://www.fh-potsdam.de/datenschutzhinweis/">Privacy policy</a><br>
-				<a href="https://www.fh-potsdam.de/impressum/">Imprint</a>				
+				<a href="https://www.fh-potsdam.de/impressum/">Imprint</a>
 			</p>
     </footer>
   </div>
@@ -119,7 +118,7 @@
       margin-top: 1em;
     }
 
-    .h1 {
+    .logo {
       // max-width: 500px;
       margin-bottom: $spacing;
 
