@@ -93,7 +93,7 @@
       .title {
         margin-bottom: $spacing;
 
-        span {
+        span:first-child {
           letter-spacing: -0.01em;
         }
       }
