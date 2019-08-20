@@ -52,6 +52,7 @@
         <li>projects can be submitted by teams, but we still need a single contact person</li>
         <li>multiple entries per person or team are permitted</li>
         <li>with submitting a project you're confirming to have it published on this website</li>
+        <li>it should be published within the last three years, i.e., after 20 Aug 2016</li>
       </ul>
     </section>
     <section>
@@ -69,6 +70,9 @@
 				<a href="https://www.fh-potsdam.de/impressum/">Imprint</a>
 			</p>
     </footer>
+    <div class="hashtag">
+      <a href="https://twitter.com/hashtag/visforfuture">#visforfuture</a>
+    </div>
   </div>
 </template>
 
@@ -123,6 +127,14 @@
 
     p + p, ul + p {
       margin-top: 1em;
+    }
+
+    .hashtag {
+      position: fixed;
+      bottom: $spacing / 2;
+      right: $spacing / 4;
+      transform-origin: bottom right;
+      transform: rotate(-90deg) translate(100%, 0%)
     }
   }
 </style>
