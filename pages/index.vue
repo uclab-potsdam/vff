@@ -31,9 +31,6 @@
         The submission is simple: you share basic information about the visualization including title, description, project team, publication date, a weblink, and type (academic & government, commercial, journalistic, independent). If the project is not in English, a description of the visualization's content is necessary. After the submission deadline our international jury of experienced climate scientists, communicators, and activists will review the submissions according to above criteria, and choose the winners. Winners can earn prizes of up to 500&#8239;€.<p>
       </p>
     </section>
-    <!-- <section class="submit">
-      <a href="https://forms.gle/coAtk1jfx7bN48dh6" class="no-highlight"><span class="btn">Submit Visualization</span></a>
-    </section> -->
     <section>
       <h2><span>Timeline</span></h2>
       <ul>
@@ -62,8 +59,8 @@
     </section>
     <footer>
 			<p>
-				<a class="no-highlight" href="https://uclab.fh-potsdam.de"><img alt="UCLAB logo" style="width:8rem;" src="~/assets/uclab.svg" /></a>
-				<a class="no-highlight" href="https://www.fh-potsdam.de"><img alt="FHP logo" style="width:12rem; margin:.75rem 1.5rem;" src="~/assets/fhp.svg" /></a>
+				<a class="no-highlight" href="https://uclab.fh-potsdam.de"><img alt="UCLAB logo" style="width:8rem; margin-right: 1.5rem;" src="~/assets/uclab.svg" /></a>
+				<a class="no-highlight" href="https://www.fh-potsdam.de"><img alt="FHP logo" style="width:12rem; margin:.75rem 1.5rem .75rem 0;" src="~/assets/fhp.svg" /></a>
 			</p>
       <p>
 				<a href="https://www.fh-potsdam.de/datenschutzhinweis/">Privacy policy</a><br>
