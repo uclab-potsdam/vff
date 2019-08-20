@@ -21,8 +21,17 @@ h2 {
 	margin-bottom: $spacing / 2;
 }
 
+a {
+	color: #149E2E;
+}
+
 p, ul {
-	font-weight: 500;
+	font-weight: 300;
+}
+
+section:nth-of-type(1) p {
+	font-weight: 700;
+	font-size: 1.25em;
 }
 
 ul {
@@ -30,7 +39,7 @@ ul {
 
 	li {
 		padding-left: 2em;
-  	text-indent: -0.7em;
+  	text-indent: -1em;
 
   	&::before {
 		  content: "–";

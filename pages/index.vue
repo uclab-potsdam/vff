@@ -6,11 +6,11 @@
     </header>
     <section>
       <p>
-        From 20-27 September 2019, millions of people worldwide will join the young climate protesters in a global climate strike to fight for climate justice. We are launching an international competition to gather innovative, understandable, and actionable visualizations that were created in the last three years. Winners will be selected by an international jury of climate scientists, communicators, and activists. All submissions including infographics, animations, and interactive visualizations will be listed on this open platform.
+        From 20-27 September 2019, millions of people worldwide will join the young climate protesters in a <a href="https://globalclimatestrike.net">global climate strike</a> to fight for climate justice. To support their cause, we are launching an international competition to gather state-of-the-art visualizations of climate change that were created in the last three years. Winners will be selected by an international jury of climate scientists, communicators, and activists. All submissions including infographics, animations, and interactive visualizations will be listed on this website.
       </p>
     </section>
     <section class="submit">
-      <span class="btn">Submit Visualisation</span>
+      <span class="btn">Submit Visualization</span>
     </section>
     <section>
       <p>
@@ -32,7 +32,7 @@
       </p>
     </section>
     <section class="submit">
-      <span class="btn">Submit Visualisation</span>
+      <span class="btn">Submit Visualization</span>
     </section>
     <section>
       <h2>Timeline</h2>
@@ -52,13 +52,13 @@
         <li>projects can be submitted by teams, but we still need a single contact person</li>
         <li>multiple entries per person or team are permitted</li>
         <li>projects can also be nominated by people not involved in the project</li>
-        <li>with submitting a project you're confirming to have the information published on this website</li>
+        <li>with submitting a project you're confirming to have it published on this website</li>
       </ul>
     </section>
     
     <section>
       <h2>Who are we</h2>
-      <p>We are a visualization research group at the University of Applied Sciences Potsdam. Our work revolves around data visualization with a particular focus on the challenges and questions arising from social, cultural, and technological transformations. While one of our recent projects focuses on climate change scenarios, we feel there is a broader need to contribute to the growing awareness and ongoing discussions about climate change via well-designed visualizations. Climate change poses new challenges for each and everyone of us and requires transformations in all sectors of our lives. With this competition, we hope to achieve an open process of knowledge transfer in which innovative visualizations inspire people to join in the climate movement and explore paths towards a more sustainable future.</p>
+      <p>We are a <a href="http://uclab.fh-potsdam.de">visualization research group</a> at the <a href="https://www.fh-potsdam.de/">University of Applied Sciences Potsdam</a>. Our work revolves around data visualization with a particular focus on the challenges and questions arising from social, cultural, and technological transformations. While one of our recent projects focuses on climate change scenarios, we feel there is a broader need to contribute to the growing awareness and ongoing discussions about climate change via well-designed visualizations. Climate change poses new challenges for each and everyone of us and requires transformations in all sectors of our lives. With this competition, we hope to achieve an open process of knowledge transfer in which innovative visualizations inspire people to join in the climate movement and explore paths towards a more sustainable future.</p>
     </section>
     <!-- <footer>
       <h2>Imprint</h2>
