@@ -62,8 +62,8 @@
     </section>
     <footer>
 			<p>
-					<a href="https://uclab.fh-potsdam.de"><img alt="UCLAB logo" style="width:8rem;" src="~/assets/uclab.svg"></a>
-					<a href="https://www.fh-potsdam.de"><img alt="FHP logo" style="width:12rem; margin:.75rem 1.5rem;" src="~/assets/fhp.svg"></a>
+					<a href="https://uclab.fh-potsdam.de"><img alt="UCLAB logo" style="width:8rem;" src="~/assets/uclab.svg" /></a>
+					<a href="https://www.fh-potsdam.de"><img alt="FHP logo" style="width:12rem; margin:.75rem 1.5rem;" src="~/assets/fhp.svg" /></a>
 			</p>
       <p>
 				<a href="https://www.fh-potsdam.de/datenschutzhinweis/">Privacy policy</a><br>
