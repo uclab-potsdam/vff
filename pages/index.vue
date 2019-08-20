@@ -2,7 +2,7 @@
   <div class="page-wrapper">
     <header title="Visualisation for Future">
       <hgroup class="logo"><h1><span>Vis for</span><br />Future</h1></hgroup>
-      <img src="~/assets/map.png" />
+      <img src="~/assets/map.png" alt="Vis for Future logo" />
     </header>
     <section>
       <p>
