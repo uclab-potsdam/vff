@@ -24,8 +24,8 @@
       </p>
       <ul>
         <li><b>innovative:</b> The data visualization employs original and creative ways of representing the complexities of climate change and its impacts.</li>
-        <li><b>understandable:</b> The visual representations are comprehensible for the intended audience and their visual design is inviting its use.</li>
-        <li><b>actionable:</b> The visualization offer insights that can directly inform and encourage personal and/or political transformations.</li>
+        <li><b>understandable:</b> The visual encodings are comprehensible for the intended audience and their interaction design is inviting its use.</li>
+        <li><b>actionable:</b> The visualization offers insights that can directly inform and encourage personal and/or political transformations.</li>
       </ul>
       <p>
         The submission is simple: you share basic information about the visualization including title, description, project team, publication date, a weblink, and type (commercial, academic, journalistic, independent). If the project is not in English, a description of the visualization's content is necessary. After the submission deadline our international jury of experienced climate scientists, communicators, and activists will review the submissions according to above criteria, and choose the winners. Winners can earn prizes of up to 500 €.<p>
