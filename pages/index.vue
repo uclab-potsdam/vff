@@ -10,7 +10,7 @@
       </p>
     </section>
     <section class="submit">
-      <span class="btn">Submit Visualization</span>
+      <span class="btn"><a href="https://forms.gle/coAtk1jfx7bN48dh6">Submit Visualization</a></span>
     </section>
     <section>
       <p>
@@ -32,7 +32,7 @@
       </p>
     </section>
     <section class="submit">
-      <span class="btn">Submit Visualization</span>
+      <span class="btn"><a href="https://forms.gle/coAtk1jfx7bN48dh6">Submit Visualization</a></span>
     </section>
     <section>
       <h2><span>Timeline</span></h2>
