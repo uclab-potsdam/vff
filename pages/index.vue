@@ -37,11 +37,11 @@
     <section>
       <h2>Timeline</h2>
       <ul>
-        <li><strong>20 Aug:</strong> Call is launched</li>
-        <li><strong>05 Sep:</strong> Jury is published</li>
-        <li><strong>20 Sep:</strong> Submissions due</li>
-        <li><strong>23 Sep:</strong> All projects published</li>
-        <li><strong>27 Sep:</strong> Winners announced</li>
+        <li><strong><time datetime="2019-08-20">20 Aug</time>:</strong> Call is launched</li>
+        <li><strong><time datetime="2019-09-05">05 Sep</time>:</strong> Jury is published</li>
+        <li><strong><time datetime="2019-09-20">20 Sep</time>:</strong> Submissions due</li>
+        <li><strong><time datetime="2019-09-23">23 Sep</time>:</strong> All projects published</li>
+        <li><strong><time datetime="2019-09-27">27 Sep</time>:</strong> Winners announced</li>
       </ul>
     </section>
     <section>
