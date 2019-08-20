@@ -1,6 +1,6 @@
 module.exports = {
   head: {
-    title: 'Visualisation for Climate Competition',
+    title: 'Vis for Future · Climate Visualization Competition',
     htmlAttrs: {
       lang: 'en-US'
     },
