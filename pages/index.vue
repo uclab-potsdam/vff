@@ -1,8 +1,8 @@
 <template>
   <div class="page-wrapper">
-    <header>
-      <div class="h1"><h1><span>Vis for</span><br>Future</h1></div>
-      <img src="~/assets/map.png"/>
+    <header title="Visualisation for Future">
+      <hgroup class="logo"><h1><span>Vis for</span><br />Future</h1></hgroup>
+      <img src="~/assets/map.png" />
     </header>
     <section>
       <p>
@@ -119,7 +119,7 @@
       margin-top: 1em;
     }
 
-    .h1 {
+    .logo {
       // max-width: 500px;
       margin-bottom: $spacing;
 
