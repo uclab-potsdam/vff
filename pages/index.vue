@@ -1,12 +1,12 @@
 <template>
   <div class="page-wrapper">
     <header title="Visualisation for Future">
-      <hgroup class="logo"><h1><span>Vis for</span><br />Future</h1></hgroup>
-      <img src="~/assets/map.png" alt="Vis for Future logo" />
+      <hgroup class="logo"><h1><span>Vis for</span><br /><span>Future</span></h1></hgroup>
+      <img class="logo-map" src="~/assets/map.png" alt="Vis for Future logo"/>
     </header>
     <section>
       <p>
-        From 20-27 September 2019, millions of people worldwide will join the young climate protesters in a <a href="https://globalclimatestrike.net">global climate strike</a> to fight for climate justice. To support their cause, we are launching an international competition to gather state-of-the-art visualizations of climate change that were created in the last three years. Winners will be selected by an international jury of climate scientists, communicators, and activists. All submissions including infographics, animations, and interactive visualizations will be listed on this website.
+        From 20–27 September 2019, millions of people worldwide will join the young climate protesters in a <a href="https://globalclimatestrike.net">global climate strike</a> to fight for climate justice. To support their cause, we are launching an international competition to gather state-of-the-art visualizations of climate change that were created in the last three years. Winners will be selected by an international jury of climate scientists, communicators, and activists. All submissions including infographics, animations, and interactive visualizations will be listed on this website.
       </p>
     </section>
     <section class="submit">
@@ -35,17 +35,17 @@
       <span class="btn">Submit Visualization</span>
     </section>
     <section>
-      <h2>Timeline</h2>
+      <h2><span>Timeline</span></h2>
       <ul>
-        <li><strong>20 Aug:</strong> Call is launched</li>
-        <li><strong>05 Sep:</strong> Jury is published</li>
-        <li><strong>20 Sep:</strong> Submissions due</li>
-        <li><strong>23 Sep:</strong> All projects published</li>
-        <li><strong>27 Sep:</strong> Winners announced</li>
+        <li><strong><time datetime="2019-08-20">20 Aug</time>:</strong> Call is launched</li>
+        <li><strong><time datetime="2019-09-05">05 Sep</time>:</strong> Jury is published</li>
+        <li><strong><time datetime="2019-09-20">20 Sep</time>:</strong> Submissions due</li>
+        <li><strong><time datetime="2019-09-23">23 Sep</time>:</strong> All projects published</li>
+        <li><strong><time datetime="2019-09-27">27 Sep</time>:</strong> Winners announced</li>
       </ul>
     </section>
     <section>
-      <h2>Conditions</h2>
+      <h2><span>Conditions</span></h2>
       <ul>
         <li>the visualization should be about climate change and/or its consequences</li>
         <li>visualizations created by the organizers (ᴜᴄʟᴀʙ) are excluded from the competition</li>
@@ -55,7 +55,7 @@
       </ul>
     </section>
     <section>
-      <h2>Who are we</h2>
+      <h2><span>Who are we</span></h2>
       <p>We are a <a href="http://uclab.fh-potsdam.de">visualization research group</a> at the <a href="https://www.fh-potsdam.de/">University of Applied Sciences Potsdam</a>. Our work revolves around data visualization with a particular focus on the challenges and questions arising from social, cultural, and technological transformations. While one of our recent projects focuses on climate change scenarios, we feel there is a broader need to contribute to the growing awareness and ongoing discussions about climate change via well-designed visualizations. Climate change poses new challenges for each and everyone of us and requires transformations in all sectors of our lives. With this competition, we hope to achieve an open process of knowledge transfer in which innovative visualizations inspire people to join in the climate movement and explore paths towards a more sustainable future.</p>
 			<p>If you have any questions, feel free to contact us: <a href="&#0109;&#097;&#0105;&#0108;&#0116;&#0111;&#058;&#0118;&#0102;&#0102;&#064;&#0102;&#0104;&#045;&#0112;&#0111;&#0116;&#0115;&#0100;&#097;&#0109;&#046;&#0100;&#0101;">&#0118;&#0102;&#0102;&#064;&#0102;&#0104;&#045;&#0112;&#0111;&#0116;&#0115;&#0100;&#097;&#0109;&#046;&#0100;&#0101;</a></p>
     </section>
@@ -63,6 +63,8 @@
 			<p>
 					<a href="https://uclab.fh-potsdam.de"><img alt="UCLAB logo" style="width:8rem; margin-right: 2rem;" src="~/assets/uclab.svg"></a>
 					<a href="https://www.fh-potsdam.de"><img alt="FHP logo" style="width:12rem; margin:.75rem 0;" src="~/assets/fhp.svg"></a>
+				<a class="no-highlight" href="https://uclab.fh-potsdam.de"><img alt="UCLAB logo" style="width:8rem;" src="~/assets/uclab.svg" /></a>
+				<a class="no-highlight" href="https://www.fh-potsdam.de"><img alt="FHP logo" style="width:12rem; margin:.75rem 1.5rem;" src="~/assets/fhp.svg" /></a>
 			</p>
       <p>
 				<a href="https://www.fh-potsdam.de/datenschutzhinweis/">Privacy policy</a><br>
@@ -87,11 +89,18 @@
     header {
       display: flex;
       flex-direction: column;
-      // flex-wrap: wrap-reverse;
       justify-content: center;
       align-items: center;
 
-      img {
+      .title {
+        margin-bottom: $spacing;
+
+        span {
+          letter-spacing: -0.01em;
+        }
+      }
+
+      .logo-map {
         width: 500px;
         height: auto;
         margin: -$spacing * 1.6 0 $spacing / 2;
@@ -122,7 +131,7 @@
       // max-width: 500px;
       margin-bottom: $spacing;
 
-      span {
+      span:first-child {
         letter-spacing: -0.01em;
       }
     }

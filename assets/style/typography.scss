@@ -4,29 +4,48 @@ h1 {
 	font-weight: $font-weight-bold;
 	color: $color-accent;
 	font-size: 5rem;
-	background: linear-gradient(to top, transparent 0px, transparent 20px, $color-accent 20px, $color-accent 30px, transparent 30px);
+	background: linear-gradient(to top, transparent 0px, transparent 22px, black 22px, black 108px, transparent 108px);
 	display: inline;
+
+	span {
+		padding: 0 $spacing / 4;
+	}
 }
 
 h2 {
 	font-family: $font-headline;
 	line-height: 1.1;
 	font-weight: $font-weight-bold;
-	color: $color-accent;
+	color: black;
 	font-size: 3rem;
 	margin-bottom: $spacing / 2;
+
+	span {
+		padding: 0 $spacing / 4;
+		background: linear-gradient(to top, transparent 0px, transparent 12px, $color-accent 12px, $color-accent 68px, transparent 68px);
+	}
 }
 
 a {
-	color: $color-accent--dark;
+	color: black;
+	background: linear-gradient(to top, transparent 0px, transparent 2px, $color-accent 2px, $color-accent 5px, transparent 5px);
 
 	&:hover {
-		text-decoration: underline;
+		background: linear-gradient(to top, transparent 0px, transparent 2px, $color-accent 2px, $color-accent 20px, transparent 20px);
+	}
+
+	&.no-highlight {
+		background: none;
 	}
 }
 
 p, ul {
 	font-weight: $font-weight-default;
+	hyphens: auto;
+}
+
+p + p, ul + p {
+  margin-top: 1em;
 }
 
 section:nth-of-type(1) p {
@@ -51,7 +70,8 @@ ul {
 }
 
 .btn {
-	background-color: $color-accent;
+	cursor: pointer;
+	background: linear-gradient(to top, black 0px, black 0px, $color-accent 0px, $color-accent 3px, black 3px);
 	color: white;
 	padding: $spacing / 2 $spacing;
 	font-family: $font-headline;
@@ -61,4 +81,8 @@ ul {
 	font-size: 1.3rem;
 	margin: $spacing / 2 0;
 	text-align: center;
+
+	&:hover {
+		background: linear-gradient(to top, black 0px, black 0px, $color-accent 0px, $color-accent 25%, black 25%);
+	}
 }

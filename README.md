@@ -1,6 +1,10 @@
 # Visualisation for Climate
 
-http://visualisation-for-future.netlify.com
+The Vis for Future competition calls for visualizations that fight for climate justice.
+
+https://uclab.fh-potsdam.de/vff/
+
+[On Netlify](http://visualisation-for-future.netlify.com)
 
 ## Build Setup
 
