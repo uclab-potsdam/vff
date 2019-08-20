@@ -54,7 +54,7 @@
         <li>with submitting a project you're confirming to have it published on this website</li>
       </ul>
     </section>
-    
+
     <section>
       <h2>Who are we</h2>
       <p>We are a <a href="http://uclab.fh-potsdam.de">visualization research group</a> at the <a href="https://www.fh-potsdam.de/">University of Applied Sciences Potsdam</a>. Our work revolves around data visualization with a particular focus on the challenges and questions arising from social, cultural, and technological transformations. While one of our recent projects focuses on climate change scenarios, we feel there is a broader need to contribute to the growing awareness and ongoing discussions about climate change via well-designed visualizations. Climate change poses new challenges for each and everyone of us and requires transformations in all sectors of our lives. With this competition, we hope to achieve an open process of knowledge transfer in which innovative visualizations inspire people to join in the climate movement and explore paths towards a more sustainable future.</p>
@@ -67,7 +67,7 @@
 			</p>
       <p>
 				<a href="https://www.fh-potsdam.de/datenschutzhinweis/">Privacy policy</a><br>
-				<a href="https://www.fh-potsdam.de/impressum/">Imprint</a>				
+				<a href="https://www.fh-potsdam.de/impressum/">Imprint</a>
 			</p>
     </footer>
   </div>
