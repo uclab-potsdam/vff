@@ -1,8 +1,8 @@
 <template>
   <div class="page-wrapper">
     <header title="Visualisation for Future">
-      <hgroup class="logo"><h1><span>Vis for</span><br /><span>Future</span></h1></hgroup>
-      <img class="logo-map" src="~/assets/map.png" alt="Vis for Future logo"/>
+      <hgroup class="title"><h1><span>Vis for</span><br /><span>Future</span></h1></hgroup>
+      <img class="logo" src="~/assets/logo.png" alt="Vis for Future logo"/>
     </header>
     <section>
       <p>
@@ -98,7 +98,7 @@
         }
       }
 
-      .logo-map {
+      .logo {
         width: 500px;
         height: auto;
         margin: -$spacing * 1.6 0 $spacing / 2;
@@ -123,15 +123,6 @@
 
     p + p, ul + p {
       margin-top: 1em;
-    }
-
-    .logo {
-      // max-width: 500px;
-      margin-bottom: $spacing;
-
-      span:first-child {
-        letter-spacing: -0.01em;
-      }
     }
   }
 </style>
