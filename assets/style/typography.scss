@@ -1,13 +1,9 @@
-$color-accent: #00ab3d;
-
 h1 {
 	font-family: $font-headline;
 	line-height: 1.1;
-	font-weight: 900;
+	font-weight: $font-weight-bold;
 	color: $color-accent;
 	font-size: 5rem;
-	// max-width: 500px;
-	// text-decoration: underline;
 	background: linear-gradient(to top, transparent 0px, transparent 20px, $color-accent 20px, $color-accent 30px, transparent 30px);
 	display: inline;
 }
@@ -15,22 +11,22 @@ h1 {
 h2 {
 	font-family: $font-headline;
 	line-height: 1.1;
-	font-weight: 900;
+	font-weight: $font-weight-bold;
 	color: $color-accent;
 	font-size: 3rem;
 	margin-bottom: $spacing / 2;
 }
 
 a {
-	color: #149E2E;
-}
+	color: $color-accent--dark;
 
-a:hover {
-	text-decoration: underline;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 p, ul {
-	font-weight: 300;
+	font-weight: $font-weight-default;
 }
 
 section:nth-of-type(1) p {
