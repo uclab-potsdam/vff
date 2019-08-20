@@ -2,11 +2,11 @@
   <div class="page-wrapper">
     <header title="Visualisation for Future">
       <hgroup class="logo"><h1><span>Vis for</span><br /><span>Future</span></h1></hgroup>
-      <img src="~/assets/map.png" />
+      <img class="logo-map" src="~/assets/map.png" alt="Vis for Future logo"/>
     </header>
     <section>
       <p>
-        From 20-27 September 2019, millions of people worldwide will join the young climate protesters in a <a href="https://globalclimatestrike.net">global climate strike</a> to fight for climate justice. To support their cause, we are launching an international competition to gather state-of-the-art visualizations of climate change that were created in the last three years. Winners will be selected by an international jury of climate scientists, communicators, and activists. All submissions including infographics, animations, and interactive visualizations will be listed on this website.
+        From 20–27 September 2019, millions of people worldwide will join the young climate protesters in a <a href="https://globalclimatestrike.net">global climate strike</a> to fight for climate justice. To support their cause, we are launching an international competition to gather state-of-the-art visualizations of climate change that were created in the last three years. Winners will be selected by an international jury of climate scientists, communicators, and activists. All submissions including infographics, animations, and interactive visualizations will be listed on this website.
       </p>
     </section>
     <section class="submit">
@@ -37,11 +37,11 @@
     <section>
       <h2><span>Timeline</span></h2>
       <ul>
-        <li><strong>20 Aug:</strong> Call is launched</li>
-        <li><strong>05 Sep:</strong> Jury is published</li>
-        <li><strong>20 Sep:</strong> Submissions due</li>
-        <li><strong>23 Sep:</strong> All projects published</li>
-        <li><strong>27 Sep:</strong> Winners announced</li>
+        <li><strong><time datetime="2019-08-20">20 Aug</time>:</strong> Call is launched</li>
+        <li><strong><time datetime="2019-09-05">05 Sep</time>:</strong> Jury is published</li>
+        <li><strong><time datetime="2019-09-20">20 Sep</time>:</strong> Submissions due</li>
+        <li><strong><time datetime="2019-09-23">23 Sep</time>:</strong> All projects published</li>
+        <li><strong><time datetime="2019-09-27">27 Sep</time>:</strong> Winners announced</li>
       </ul>
     </section>
     <section>
@@ -87,11 +87,18 @@
     header {
       display: flex;
       flex-direction: column;
-      // flex-wrap: wrap-reverse;
       justify-content: center;
       align-items: center;
 
-      img {
+      .title {
+        margin-bottom: $spacing;
+
+        span {
+          letter-spacing: -0.01em;
+        }
+      }
+
+      .logo-map {
         width: 500px;
         height: auto;
         margin: -$spacing * 1.6 0 $spacing / 2;
