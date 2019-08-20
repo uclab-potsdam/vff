@@ -51,7 +51,6 @@
         <li>visualizations created by the organizers (ᴜᴄʟᴀʙ) are excluded from the competition</li>
         <li>projects can be submitted by teams, but we still need a single contact person</li>
         <li>multiple entries per person or team are permitted</li>
-        <li>projects can also be nominated by people not involved in the project</li>
         <li>with submitting a project you're confirming to have it published on this website</li>
       </ul>
     </section>
