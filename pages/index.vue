@@ -10,7 +10,7 @@
       </p>
     </section>
     <section class="submit">
-      <span class="btn"><a href="https://forms.gle/coAtk1jfx7bN48dh6">Submit Visualization</a></span>
+      <a href="https://forms.gle/coAtk1jfx7bN48dh6" class="no-highlight"><span class="btn">Submit Visualization</span></a>
     </section>
     <section>
       <p>
@@ -31,9 +31,9 @@
         The submission is simple: you share basic information about the visualization including title, description, project team, publication date, a weblink, and type (commercial, academic, journalistic, independent). If the project is not in English, a description of the visualization's content is necessary. After the submission deadline our international jury of experienced climate scientists, communicators, and activists will review the submissions according to above criteria, and choose the winners. Winners can earn prizes of up to 500 €.<p>
       </p>
     </section>
-    <section class="submit">
-      <span class="btn"><a href="https://forms.gle/coAtk1jfx7bN48dh6">Submit Visualization</a></span>
-    </section>
+    <!-- <section class="submit">
+      <a href="https://forms.gle/coAtk1jfx7bN48dh6" class="no-highlight"><span class="btn">Submit Visualization</span></a>
+    </section> -->
     <section>
       <h2><span>Timeline</span></h2>
       <ul>
