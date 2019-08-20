@@ -5,7 +5,7 @@ module.exports = {
     page: {
       title: 'Vis for Future · Climate Visualization Competition',
       lang: 'en-US',
-      description: 'The Vis for Future competition calls for visualizations that fight for climate justice.',
+      description: 'An international competition calling for innovative, understandable and actionable visualizations of the climate crisis that inform the fight for climate justice.',
       url: 'https://uclab.fh-potsdam.de/vff', // without trailing slash!
       color: '#00ab3d',
       card: 'summary_large_image',
