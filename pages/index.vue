@@ -1,8 +1,8 @@
 <template>
   <div class="page-wrapper">
     <header title="Visualisation for Future">
-      <hgroup class="logo"><h1><span>Vis for</span><br />Future</h1></hgroup>
-      <img src="~/assets/map.png" alt="Vis for Future logo" />
+      <hgroup class="title"><h1><span>Vis for</span><br />Future</h1></hgroup>
+      <img class="logo" src="~/assets/map.png" alt="Vis for Future logo" />
     </header>
     <section>
       <p>
@@ -87,11 +87,18 @@
     header {
       display: flex;
       flex-direction: column;
-      // flex-wrap: wrap-reverse;
       justify-content: center;
       align-items: center;
 
-      img {
+      .title {
+        margin-bottom: $spacing;
+
+        span {
+          letter-spacing: -0.01em;
+        }
+      }
+
+      .logo {
         width: 500px;
         height: auto;
         margin: -$spacing * 1.6 0 $spacing / 2;
@@ -108,23 +115,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-    }
-
-    p {
-      hyphens: auto;
-    }
-
-    p + p, ul + p {
-      margin-top: 1em;
-    }
-
-    .logo {
-      // max-width: 500px;
-      margin-bottom: $spacing;
-
-      span {
-        letter-spacing: -0.01em;
-      }
     }
   }
 </style>

@@ -27,6 +27,11 @@ a {
 
 p, ul {
 	font-weight: $font-weight-default;
+	hyphens: auto;
+}
+
+p + p, ul + p {
+  margin-top: 1em;
 }
 
 section:nth-of-type(1) p {
