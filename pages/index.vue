@@ -23,9 +23,9 @@
         To take part in the competition, submit your climate visualization project that is
       </p>
       <ul>
-        <li><b>innovative:</b> The data visualization employs original and creative ways of representing the complexities of climate change and its impacts.</li>
-        <li><b>understandable:</b> The visual encodings are comprehensible for the intended audience and their interaction design is inviting its use.</li>
-        <li><b>actionable:</b> The visualization offers insights that can directly inform and encourage personal and/or political transformations.</li>
+        <li><strong>innovative:</strong> The data visualization employs original and creative ways of representing the complexities of climate change and its impacts.</li>
+        <li><strong>understandable:</strong> The visual encodings are comprehensible for the intended audience and their interaction design is inviting its use.</li>
+        <li><strong>actionable:</strong> The visualization offers insights that can directly inform and encourage personal and/or political transformations.</li>
       </ul>
       <p>
         The submission is simple: you share basic information about the visualization including title, description, project team, publication date, a weblink, and type (commercial, academic, journalistic, independent). If the project is not in English, a description of the visualization's content is necessary. After the submission deadline our international jury of experienced climate scientists, communicators, and activists will review the submissions according to above criteria, and choose the winners. Winners can earn prizes of up to 500 €.<p>
@@ -37,11 +37,11 @@
     <section>
       <h2>Timeline</h2>
       <ul>
-        <li><b>20 Aug:</b> Call is launched</li>
-        <li><b>05 Sep:</b> Jury is published</li>
-        <li><b>20 Sep:</b> Submissions due</li>
-        <li><b>23 Sep:</b> All projects published</li>
-        <li><b>27 Sep:</b> Winners announced</li>
+        <li><strong>20 Aug:</strong> Call is launched</li>
+        <li><strong>05 Sep:</strong> Jury is published</li>
+        <li><strong>20 Sep:</strong> Submissions due</li>
+        <li><strong>23 Sep:</strong> All projects published</li>
+        <li><strong>27 Sep:</strong> Winners announced</li>
       </ul>
     </section>
     <section>
