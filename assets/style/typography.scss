@@ -25,6 +25,10 @@ a {
 	color: #149E2E;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 p, ul {
 	font-weight: 300;
 }
