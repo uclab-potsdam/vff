@@ -28,6 +28,9 @@ module.exports = {
       '/'
     ]
   },
+  router: {
+    base: '/vff/'
+  },
   build: {
     extend (config, ctx) {
       if (ctx.isDev && ctx.isClient) {
