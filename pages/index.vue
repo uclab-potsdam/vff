@@ -6,7 +6,7 @@
     </header>
     <section>
       <p>
-        From 20–27 September 2019, millions of people worldwide will join the young climate protesters in a <a href="https://globalclimatestrike.net">global climate strike</a> to fight for climate justice. To support their cause, we are launching an international competition to gather state-of-the-art visualizations of climate change that were created in the last three years. Winners will be selected by an international jury of climate scientists, communicators, and activists. All submissions including infographics, animations, and interactive visualizations will be listed on this website.
+        From 20–27 September 2019, millions of people worldwide will join the young climate protesters in a <a href="https://globalclimatestrike.net">global climate strike</a> to fight for climate justice. To support their cause, we are launching an international competition to gather state-of-the-art visualizations of climate change that were created in the last three years. Winners will be selected by an international jury of climate scientists, communicators, and activists. All submissions including infographics, animations, and interactive visualizations that comply with the requirements will be listed on this website.
       </p>
     </section>
     <section class="submit">
