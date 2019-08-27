@@ -61,10 +61,31 @@ ul {
   	text-indent: -1em;
 
   	&::before {
-		  content: "–";
+		  content: '–';
 		  font-weight: 700;
 		  margin-right: 0.5em;
 		  color: $color-accent; /* or whatever color you prefer */
+		}
+	}
+
+	&.jury {
+		column-count: 2;
+
+		li {
+			padding: 0;
+			text-indent: 0;
+			margin-bottom: $spacing / 2;
+			line-height: 1.3;
+			break-inside: avoid;
+
+			&::before {
+				content: '';
+				margin: 0;
+			}
+
+			strong {
+				display: block;
+			}
 		}
 	}
 }

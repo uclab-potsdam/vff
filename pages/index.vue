@@ -41,6 +41,15 @@
         <li><strong><time datetime="2019-09-27">27 Sep</time>:</strong> Winners announced</li>
       </ul>
     </section>
+    <section v-if="false">
+      <h2><span>Jury</span></h2>
+      <ul class="jury">
+        <li><strong>Melissa Gomis</strong>IPCC</li>
+        <li><strong>Prof. Dr. Birgit Schneider</strong>University of Potsdam</li>
+        <li><strong>Julius Tröger</strong>ZEIT Online</li>
+        <li><strong>Florian Windhager</strong>Donau University</li>
+      </ul>
+    </section>
     <section>
       <h2><span>Conditions</span></h2>
       <ul>
