@@ -41,8 +41,8 @@
         <li><strong><time datetime="2019-09-27">27 Sep</time>:</strong> Winners announced</li>
       </ul>
     </section>
-    <section v-if="false">
-      <h2><span>Jury</span></h2>
+    <section>
+      <h2 id="jury"><span>Jury</span></h2>
       <ul class="jury">
         <li data-sort="Alvarez"><strong>Marta Álvarez</strong>Ecoopera</li>
         <li data-sort="Battles"><strong>Matthew Battles</strong>metaLAB, Harvard</li>
@@ -57,7 +57,7 @@
         <li data-sort="Mauri"><strong>Michele Mauri</strong>DensityDesign, Politecnico di Milano</li>
         <li data-sort="Medaglia"><strong>Thiago Medaglia</strong>Ambiental Media</li>
         <li data-sort="Offenthaler"><strong>Ivo Offenthaler</strong>Environment Agency Austria</li>
-        <li data-sort="Prasad"><strong>Sonali Prasad</strong>Independent Journalist</li>
+        <li data-sort="Prasad"><strong>Sonali Prasad</strong>Independent Multimedia Journalist</li>
         <li data-sort="Rasper"><strong>Hanna Rasper</strong>Ellery Studio</li>
         <li data-sort="Schneider"><strong>Birgit Schneider</strong>University of Potsdam</li>
         <li data-sort="Stefaner"><strong>Moritz Stefaner</strong>Truth & Beauty</li>
