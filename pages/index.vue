@@ -44,16 +44,19 @@
     <section v-if="false">
       <h2><span>Jury</span></h2>
       <ul class="jury">
+        <li data-sort="Alvarez"><strong>Marta Álvarez</strong>Ecoopera</li>
+        <li data-sort="Battles"><strong>Matthew Battles</strong>metaLAB, Harvard</li>
+        <li data-sort="Bertram"><strong>Christoph Bertram</strong>PIK</li>
         <li data-sort="Bottino"><strong>Irene Bottino</strong>Fridays for Future Palermo</li>
         <li data-sort="Elliott"><strong>Kennedy Elliott</strong>National Geographic</li>
         <li data-sort="Fair"><strong>J Henry Fair</strong>Photographer and Activist</li>
-        <li data-sort="Felderer"><strong>Astrid Felderer</strong>Umweltbundesamt – Environment Agency Austria</li>
+        <li data-sort="Felderer"><strong>Astrid Felderer</strong>Environment Agency Austria</li>
         <li data-sort="Gomis"><strong>Melissa Gomis</strong>Technical Support Unit of the IPCC, Working Group 1 / University of Paris-Saclay</li>
         <li data-sort="Medaglia"><strong>Thiago Medaglia</strong>Ambiental Media</li>
-        <li data-sort="Offenthaler"><strong>Ivo Offenthaler</strong>Umweltbundesamt – Environment Agency Austria</li>
-        <li data-sort="Prasad"><strong>Sonali Prasad</strong>Independent Journalist?</li>
+        <li data-sort="Offenthaler"><strong>Ivo Offenthaler</strong>Environment Agency Austria</li>
+        <li data-sort="Prasad"><strong>Sonali Prasad</strong>Independent Journalist</li>
         <li data-sort="Rasper"><strong>Hanna Rasper</strong>Ellery Studio</li>
-        <li data-sort="Schneider"><strong>Prof. Dr. Birgit Schneider</strong>University of Potsdam</li>
+        <li data-sort="Schneider"><strong>Birgit Schneider</strong>University of Potsdam</li>
         <li data-sort="Stefaner"><strong>Moritz Stefaner</strong>Truth & Beauty</li>
         <li data-sort="Tröger"><strong>Julius Tröger</strong>ZEIT Online</li>
         <li data-sort="Windhager"><strong>Florian Windhager</strong>Danube University Krems</li>
