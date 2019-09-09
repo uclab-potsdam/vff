@@ -52,8 +52,8 @@
         <li data-sort="Fair"><strong>J Henry Fair</strong>Photographer and Activist</li>
         <li data-sort="Felderer"><strong>Astrid Felderer</strong>Environment Agency Austria</li>
         <li data-sort="Gomis"><strong>Melissa Gomis</strong>Technical Support Unit of the IPCC, Working Group 1 / University of Paris-Saclay</li>
-        <li data-sort="Huang" v-if="false"><strong>Ailin Huang</strong>…</li>
-        <li data-sort="Johanson"><strong>Lupita Johanson</strong>Green Growth and Global Relations at OECD</li>
+        <li data-sort="Huang"><strong>Ailin Huang</strong>Energy Efficiency in Emerging Economies Programme of the IEA</li>
+        <li data-sort="Johanson"><strong>Lupita Johanson</strong>Communications co-ordinator</li>
         <li data-sort="Mauri"><strong>Michele Mauri</strong>DensityDesign, Politecnico di Milano</li>
         <li data-sort="Medaglia"><strong>Thiago Medaglia</strong>Ambiental Media</li>
         <li data-sort="Offenthaler"><strong>Ivo Offenthaler</strong>Environment Agency Austria</li>
