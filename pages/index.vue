@@ -51,6 +51,7 @@
         <li data-sort="Elliott"><strong>Kennedy Elliott</strong>National Geographic</li>
         <li data-sort="Fair"><strong>J Henry Fair</strong>Photographer and Activist</li>
         <li data-sort="Felderer"><strong>Astrid Felderer</strong>Environment Agency Austria</li>
+        <li data-sort="Fragapane"><strong>Federica Fragapane</strong>Independent Data Visualization Designer</li>
         <li data-sort="Gomis"><strong>Melissa Gomis</strong>Technical Support Unit of the IPCC, Working Group 1 / University of Paris-Saclay</li>
         <li data-sort="Huang"><strong>Ailin Huang</strong>Energy Efficiency in Emerging Economies Programme of the IEA</li>
         <li data-sort="Johanson"><strong>Lupita Johanson</strong>Communications co-ordinator</li>
