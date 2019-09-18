@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { isUndefined, get, map, compact, fromPairs, uniq } from 'lodash'
+import { isUndefined, get, map, compact, fromPairs, uniq, sortBy } from 'lodash'
 import showdown from 'showdown'
 
 const converter = new showdown.Converter()
@@ -13,7 +13,8 @@ const STATUS_ERROR = 'ERROR'
 const url = 'https://spreadsheets.google.com/feeds/list/1YS0NLpCh2fytjGYhjjAtznHH79MKg79IknVQLA_WblQ/ob5zl9q/public/values?alt=json'
 
 const columns = [
-  ['gsx$zeitstempel', 'key', false],
+  ['gsx$id', 'key', false],
+  ['gsx$winner', 'winner', false],
   ['gsx$namecontactperson', 'name', false],
   ['gsx$organization', 'organisation', true],
   ['gsx$country', 'country', false],
@@ -36,12 +37,14 @@ const state = () => {
 
 export const getters = {
   entries: state => {
-    return compact(map(get(state.datum, ['feed', 'entry'], []), entry => {
+    return sortBy(compact(map(get(state.datum, ['feed', 'entry'], []), entry => {
       return fromPairs(map(columns, keys => {
         const content = get(entry, [keys[0], '$t'])
         return [keys[1], keys[2] ? converter.makeHtml(content) : content]
       }))
-    }))
+    })), entry => {
+      return !entry['winner']
+    })
   },
   categories: (state, getters) => {
     return uniq(map(getters.entries, 'type'))

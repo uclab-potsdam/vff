@@ -26,6 +26,53 @@ h2 {
 	}
 }
 
+h3 {
+	font-family: $font-headline;
+	line-height: 1.1;
+	font-size: 1.8rem;
+	margin-bottom: $spacing / 4;
+	transition: color 0.2s;
+
+	i {
+		font-size: 0.8em;
+		padding-left: 0.2em;
+		color: $color-accent;
+		opacity: 0;
+		transition: opacity 0.2s;
+	}
+}
+
+a:hover h3 {
+	&, i {
+		opacity: 1;
+		color: darken($color-accent, 5);
+	}
+}
+
+.winner {
+	text-transform: uppercase;
+	background-color: $color-accent;
+	padding: $spacing / 6;
+	font-family: $font-headline;
+	letter-spacing: 0.1em;
+	font-size: 1.8rem;
+}
+
+h4, .h4 strong, h5, h6 {
+	font-family: $font-headline;
+	line-height: 1.2;
+	font-size: 0.8rem;
+}
+
+.h4 {
+	line-height: 1.2;
+	font-size: 0.8rem;
+
+	strong {
+		font-family: $font-headline;
+	}
+}
+
 a {
 	color: black;
 	background: linear-gradient(to top, transparent 0px, transparent 2px, $color-accent 2px, $color-accent 5px, transparent 5px);
@@ -53,7 +100,7 @@ section:nth-of-type(1) p {
 	font-size: 1.25em;
 }
 
-ul {
+ul:not(.filter) {
 	list-style: none;
 
 	li {
@@ -111,4 +158,20 @@ ul {
 
 *::selection {
 	background-color: $color-accent;
+}
+
+dt, .caption {
+	font-size: 0.7rem;
+	letter-spacing: 0.05em;
+	font-weight: 500;
+	font-family: $font-headline;
+}
+
+.caption {
+	text-transform: uppercase;
+}
+
+dd {
+	font-size: 0.9rem;
+	margin-bottom: $spacing / 2;
 }
