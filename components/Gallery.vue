@@ -10,7 +10,8 @@
       </ul>
     </header>
     <transition name="fade">
-      <div v-if="status === 'LOADING' || status === 'IDLE'">Loading …</div>
+      <div v-if="status === 'LOADING' || status === 'IDLE'">Loading projects …</div>
+      <div v-else-if="status === 'ERROR'">Could not load projects.</div>
       <div v-else class="gallery">
         <transition-group
           name="list-complete"
