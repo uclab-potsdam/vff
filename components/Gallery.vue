@@ -218,6 +218,10 @@
         margin-top: $spacing / 2;
       }
 
+      .details {
+        margin-top: 0;
+      }
+
       .link-website {
         margin: $spacing 0;
         text-align: center;
