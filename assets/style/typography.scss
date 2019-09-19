@@ -154,9 +154,9 @@ ul:not(.filter) {
 	margin: $spacing / 2 0;
 	text-align: center;
 
-	&:hover {
+	&:hover, &:focus {
 		background: $color-accent;
-		color: black;
+		color: #000;
 	}
 }
 

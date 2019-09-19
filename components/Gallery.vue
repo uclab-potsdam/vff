@@ -37,7 +37,7 @@
                     </div>
                   </dl>
                   <div v-if="item.link" class="link-website">
-                    <a :href="item.link">Visit project website</a>
+                    <a class="btn" :href="item.link">Visit project website</a>
                   </div>
                   <dl class="list--columns">
                     <div v-if="item.organisation">
@@ -227,21 +227,11 @@
         text-align: center;
 
         a {
-          background: $color-accent;
           width: auto;
           display: inline-block;
           padding: $spacing / 4 $spacing;
           font-size: 1rem;
           letter-spacing: 0.05em;
-          border: 2px solid $color-accent;
-          transition: background-color 0.2s, color 0.2s, border-color 0.2s;
-          font-family: $font-headline;
-
-          &:hover, &:focus {
-            background-color: #000;
-            border-color: #000;
-            color: #fff;
-          }
         }
       }
 
