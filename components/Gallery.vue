@@ -30,7 +30,7 @@
                 <span class="h4">By <strong>{{ item.name }}</strong></span>
                 <span @click="changeEntry(item.key)" class="btn--details caption"><i :class="activeEntry === item.key ? 'icon-up-open' : 'icon-down-open'" /> Details <i :class="activeEntry === item.key ? 'icon-up-open' : 'icon-down-open'" /></span>
               </header>
-              <transition name="fade">
+              <transition-expand>
                 <div class="details" v-if="activeEntry === item.key">
                   <dl>
                     <div v-if="item.description">
@@ -58,7 +58,7 @@
                     </div>
                   </dl>
                 </div>
-              </transition>
+              </transition-expand>
             </div>
           </article>
         </transition-group>
@@ -70,6 +70,7 @@
 <script>
   import { mapState, mapGetters } from 'vuex'
   import { filter, get } from 'lodash'
+  import TransitionExpand from '~/components/TransitionExpand.vue'
 
   export default {
     data: function () {
@@ -112,6 +113,9 @@
           this.activeEntry = entry
         }
       }
+    },
+    components: {
+      TransitionExpand
     }
   }
 </script>
@@ -123,6 +127,15 @@
     transition: opacity .5s;
   }
   .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
+
+  .expand-enter-active,
+  .expand-leave-active {
+    transition-property: opacity, height;
+  }
+  .expand-enter,
+  .expand-leave-to {
     opacity: 0;
   }
 
@@ -149,13 +162,13 @@
   }
 
   .gallery {
-    width: 90vw;
+    width: 96vw;
   }
 
   .entries {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 3vh 2vw;
+    grid-gap: 3vh 1vw;
 
     & > * {
       overflow: hidden;
