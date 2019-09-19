@@ -23,9 +23,9 @@
             class="list-complete-item"
             :key="item.key">
             <div class="entry">
+              <figure><img :src="`http://uclab.fh-potsdam.de/vff/images/${item.key}.png`" /></figure>
+              <span v-if="item.winner" class="winner" v-html="'Winner'" />
               <header>
-                <figure><img :src="`http://uclab.fh-potsdam.de/vff/images/${item.key}.png`" /></figure>
-                <span v-if="item.winner" class="winner" v-html="'Winner'" />
                 <a :href="item.link"><h3>{{ item.title }}<i class="demo-icon icon-link-ext" /></h3></a>
                 <span class="h4">By <strong>{{ item.name }}</strong></span>
                 <span @click="changeEntry(item.key)" class="btn--details caption"><i :class="activeEntry === item.key ? 'icon-up-open' : 'icon-down-open'" /> Details <i :class="activeEntry === item.key ? 'icon-up-open' : 'icon-down-open'" /></span>
@@ -38,7 +38,7 @@
                     </div>
                   </dl>
                   <div v-if="item.link" class="link-website">
-                    <a :href="item.link">Visit website</a>
+                    <a :href="item.link">Visit project website</a>
                   </div>
                   <dl class="list--columns">
                     <div v-if="item.organisation">
@@ -181,8 +181,6 @@
       .winner {
         display: block;
         text-align: center;
-        margin: 0 calc(17px * -1);
-        margin-bottom: $spacing / 2;
       }
 
       .btn--details {
@@ -197,9 +195,9 @@
         }
       }
 
-      header, .details {
-        padding: $spacing / 2;
-        padding-bottom: 0;
+      header, .details, figure {
+        padding: 0 $spacing / 2;
+        margin-top: $spacing / 2;
       }
 
       .link-website {
@@ -208,9 +206,9 @@
 
         a {
           background: $color-accent;
-          width: 50%;
+          width: auto;
           display: inline-block;
-          padding: $spacing / 4 0;
+          padding: $spacing / 4 $spacing;
           font-size: 1rem;
           letter-spacing: 0.05em;
           border: 2px solid $color-accent;
