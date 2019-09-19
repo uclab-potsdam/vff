@@ -1,6 +1,6 @@
 <template>
   <div class="page-wrapper">
-    <header title="Visualisation for Future">
+    <header class="page-header" title="Visualisation for Future">
       <hgroup class="title"><h1><span>Vis for</span><br /><span>Future</span></h1></hgroup>
       <img class="logo" src="~/assets/logo.png" alt="Vis for Future logo"/>
     </header>
@@ -9,10 +9,12 @@
         From 20–27 September 2019, millions of people worldwide will join the young climate protesters in a <a href="https://globalclimatestrike.net">global climate strike</a> to fight for climate justice. To support their cause, we are launching an international competition to gather state-of-the-art visualizations of climate change that were created in the last three years. Winners will be selected by an international jury of climate scientists, communicators, and activists. All submissions including infographics, animations, and interactive visualizations that comply with the requirements will be listed on this website.
       </p>
     </section>
-    <section class="submit">
-      <a href="https://forms.gle/coAtk1jfx7bN48dh6" class="no-highlight"><span class="btn">Submit Visualization</span></a>
-    </section>
     <section>
+      <h2><span>Gallery</span></h2>
+    </section>
+    <Gallery />
+    <section>
+      <h2><span>Call</span></h2>
       <p>
         While climate change is a complex phenomenon with severe impacts for people and the environment, it is a human-made development, the trajectory of which can still be altered. The complexity of climate change requires new methods for making sense of scientific insights and communicating possible paths for action to various stakeholders and citizens. To better understand the dynamics of climate change and inform policy change, visualization is widely recognized as an indispensable tool for analysis and communication.
       </p>
@@ -99,16 +101,37 @@
 </template>
 
 <script>
-  export default {}
+  import { mapActions } from 'vuex'
+  import Gallery from '~/components/Gallery.vue'
+  // import Options from '~/components/Options.vue'
+
+  export default {
+    methods: {
+      ...mapActions([
+        'loadData'
+      ])
+    },
+    components: {
+      Gallery
+      // Options
+    },
+    created () {
+      console.log('Load data in index')
+      this.loadData()
+    }
+  }
 </script>
 
 <style lang="scss" scoped>
   @import "~@/assets/style/global";
 
   .page-wrapper {
-    margin: 10vh $spacing / 2;
+    margin: 10vh 0;
     min-height: 100vh;
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     header {
       display: flex;
@@ -153,8 +176,8 @@
 
     .hashtag {
       position: fixed;
-      bottom: $spacing / 2;
-      right: $spacing / 4;
+      bottom: 2vh;
+      right: 1vw;
       transform-origin: bottom right;
       transform: rotate(-90deg) translate(100%, 0%)
     }

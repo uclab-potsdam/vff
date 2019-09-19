@@ -1,8 +1,6 @@
 <template>
   <div class="gallery-wrapper">
     <header class="gallery-header">
-      <h2><span>Gallery</span></h2>
-      <p>While climate change is a complex phenomenon with severe impacts for people and the environment, it is a human-made development, the trajectory of which can still be altered. The complexity of climate change requires new methods for making sense of scientific insights and communicating possible paths for action to various stakeholders and citizens. To better understand the dynamics of climate change and inform policy change, visualization is widely recognized as an indispensable tool for analysis and communication.</p>
       <ul class="filter">
         <li
           v-for="category in categories"
@@ -142,7 +140,6 @@
   .list-complete-item {
     transition: all 1s;
     display: inline-block;
-    margin-right: 10px;
   }
   .list-complete-enter, .list-complete-leave-to {
     opacity: 0;
@@ -158,7 +155,12 @@
   }
 
   .gallery-header {
-    min-width: 700px;
+    margin-top: 0;
+
+    ul {
+      width: 700px;
+      max-width: 96vw;
+    }
   }
 
   .gallery {
@@ -168,10 +170,11 @@
   .entries {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 3vh 1vw;
+    grid-gap: 3vh 2vw;
 
     & > * {
       overflow: hidden;
+      max-width: 96vw;
     }
 
     .entry {
@@ -181,6 +184,7 @@
       margin: 0;
       margin-bottom: 10px;
       margin-right: 10px;
+      max-width: calc(100% - 2px - 10px);
 
       figure {
         overflow: hidden;
@@ -248,8 +252,9 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    margin: $spacing 0;
+    margin: 0;
     font-family: $font-headline;
+    line-height: 1.2;
 
     & > * {
       background-color: #fff;
@@ -261,6 +266,10 @@
       letter-spacing: 0.05em;
       border: 2px solid $color-accent;
       transition: background-color 0.2s, color 0.2s;
+
+      &:last-child {
+        margin-right: 0;
+      }
 
 
       &:hover, &:focus {

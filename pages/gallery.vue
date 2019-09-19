@@ -30,7 +30,7 @@
   @import "~@/assets/style/global";
 
   .page-wrapper {
-    margin: 10vh $spacing / 2;
+    margin: 10vh 0;
     min-height: 100vh;
     flex-direction: column;
   }
