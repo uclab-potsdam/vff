@@ -244,6 +244,8 @@
       .list--columns {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 2vh 2vw;
+        margin-bottom: $spacing / 2;
       }
     }
   }
