@@ -228,7 +228,6 @@
 
         a {
           width: auto;
-          display: inline-block;
           padding: $spacing / 4 $spacing;
           font-size: 1rem;
           letter-spacing: 0.05em;
