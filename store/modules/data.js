@@ -10,21 +10,20 @@ const STATUS_SUCCESS = 'SUCCESS'
 const STATUS_ERROR = 'ERROR'
 
 // Path where the data is located
-const url = 'https://spreadsheets.google.com/feeds/list/1YS0NLpCh2fytjGYhjjAtznHH79MKg79IknVQLA_WblQ/ob5zl9q/public/values?alt=json'
+const url = 'https://spreadsheets.google.com/feeds/list/1ZFourOHLVe2c5MPxOlW4x85wRFXZuWkbOrTLqV3ND5k/od6/public/values?alt=json'
 
 const columns = [
+  // Path in entry, key, parse
   ['gsx$id', 'key', false],
   ['gsx$winner', 'winner', false],
-  ['gsx$namecontactperson', 'name', false],
+  ['gsx$team', 'name', true],
   ['gsx$organization', 'organisation', true],
   ['gsx$country', 'country', false],
-  ['gsx$titleoftheproject', 'title', false],
-  ['gsx$projectteamcredits', 'credits', true],
-  ['gsx$publicationdateafter20aug2016', 'date', false],
-  ['gsx$projecttype', 'type', false],
-  ['gsx$weblinktovisualization', 'link', false],
-  ['gsx$weblinktopreviewimage', 'preview', false],
-  ['gsx$descriptionmax.1000characters', 'description', false]
+  ['gsx$title', 'title', false],
+  ['gsx$team', 'credits', true],
+  ['gsx$type', 'type', false],
+  ['gsx$link', 'link', false],
+  ['gsx$description', 'description', false]
 ]
 
 const state = () => {
