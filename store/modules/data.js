@@ -16,13 +16,12 @@ const columns = [
   // Path in entry, key, parse
   ['gsx$id', 'key', false],
   ['gsx$winner', 'winner', false],
-  ['gsx$team', 'name', true],
   ['gsx$organization', 'organisation', true],
   ['gsx$country', 'country', false],
   ['gsx$title', 'title', false],
   ['gsx$team', 'credits', true],
   ['gsx$type', 'type', false],
-  ['gsx$link', 'link', false],
+  ['gsx$weblink', 'link', false],
   ['gsx$description', 'description', false]
 ]
 

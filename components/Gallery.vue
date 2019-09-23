@@ -26,7 +26,6 @@
               <span v-if="item.winner" class="winner" v-html="'Winner'" />
               <header>
                 <a :href="item.link"><h3>{{ item.title }}<i class="demo-icon icon-link-ext" /></h3></a>
-                <span class="h4">By <strong v-html="item.name" /></span>
                 <span @click="changeEntry(item.key)" class="btn--details caption"><i :class="activeEntry === item.key ? 'icon-up-open' : 'icon-down-open'" /> Details <i :class="activeEntry === item.key ? 'icon-up-open' : 'icon-down-open'" /></span>
               </header>
               <transition-expand>
@@ -35,6 +34,9 @@
                     <div v-if="item.description">
                       <dt>Description</dt><dd v-html="item.description" />
                     </div>
+                    <div v-if="item.credits">
+                      <dt>Credits</dt><dd v-html="item.credits" />
+                    </div>
                   </dl>
                   <div v-if="item.link" class="link-website">
                     <a class="btn" :href="item.link">Visit project website</a>
@@ -42,9 +44,6 @@
                   <dl class="list--columns">
                     <div v-if="item.organisation">
                       <dt>Organisation</dt><dd v-html="item.organisation" />
-                    </div>
-                    <div v-if="item.credits">
-                      <dt>Credits</dt><dd v-html="item.credits" />
                     </div>
                     <div v-if="item.country">
                       <dt>Country</dt><dd v-html="item.country" />
@@ -234,11 +233,21 @@
         }
       }
 
-      .list--columns {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-gap: 2vh 2vw;
-        margin-bottom: $spacing / 2;
+      dl {
+        div {
+          margin-bottom: $spacing / 2;
+        }
+
+        &.list--columns {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          grid-gap: 2vh 2vw;
+          margin-bottom: $spacing / 2;
+
+          div {
+            margin-bottom: 0;
+          }
+        }
       }
     }
   }
