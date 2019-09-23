@@ -186,6 +186,10 @@
       margin-right: 10px;
       max-width: calc(100% - 2px - 10px);
 
+      header h3 {
+        min-height: calc(2 * 1.8rem * 1.1);
+      }
+
       figure {
         overflow: hidden;
         max-height: 20vh;
