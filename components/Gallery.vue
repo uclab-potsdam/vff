@@ -26,7 +26,7 @@
               <span v-if="item.winner" class="winner" v-html="'Winner'" />
               <header>
                 <a :href="item.link"><h3>{{ item.title }}<i class="demo-icon icon-link-ext" /></h3></a>
-                <span class="h4">By <strong>{{ item.name }}</strong></span>
+                <span class="h4">By <strong v-html="item.name" /></span>
                 <span @click="changeEntry(item.key)" class="btn--details caption"><i :class="activeEntry === item.key ? 'icon-up-open' : 'icon-down-open'" /> Details <i :class="activeEntry === item.key ? 'icon-up-open' : 'icon-down-open'" /></span>
               </header>
               <transition-expand>
