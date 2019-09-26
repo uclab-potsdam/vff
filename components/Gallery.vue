@@ -169,8 +169,8 @@
 
   .entries {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 3vh 2vw;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 3vh 3vw;
 
     & > * {
       overflow: hidden;
@@ -191,8 +191,6 @@
       }
 
       figure {
-        overflow: hidden;
-        max-height: 20vh;
         display: flex;
         align-items: center;
         justify-content: center;
