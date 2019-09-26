@@ -23,9 +23,9 @@
             :key="item.key">
             <div class="entry">
               <figure><img :src="`http://uclab.fh-potsdam.de/vff/images/${item.key}.png`" /></figure>
-              <span v-if="item.winner" class="winner" v-html="'Winner'" />
+              <strong v-if="item.winner || i === 0" class="winner"><span class="label">Winner <i class="icon-vff" /></span><span class="type">{{ item.type }}</span></strong>
               <header>
-                <a :href="item.link"><h3>{{ item.title }}<i class="demo-icon icon-link-ext" /></h3></a>
+                <a :href="item.link"><h3>{{ item.title }}<i class="icon-link-ext" /></h3></a>
                 <span @click="changeEntry(item.key)" class="btn--details caption"><i :class="activeEntry === item.key ? 'icon-up-open' : 'icon-down-open'" /> Details <i :class="activeEntry === item.key ? 'icon-up-open' : 'icon-down-open'" /></span>
               </header>
               <transition-expand>
@@ -200,6 +200,10 @@
       .winner {
         display: block;
         text-align: center;
+
+        span {
+          display: block;
+        }
       }
 
       .btn--details {

@@ -90,7 +90,8 @@
 				<a class="no-highlight" href="https://www.fh-potsdam.de"><img alt="FHP logo" style="width:12rem; margin:.75rem 1.5rem .75rem 0;" src="~/assets/fhp.svg" /></a>
 			</p>
       <p>
-				<a href="https://www.fh-potsdam.de/datenschutzhinweis/">Privacy policy</a><br>
+        <a href="http://uclab.fh-potsdam.de/vff/presskit.zip">Presskit</a><br />
+				<a href="https://www.fh-potsdam.de/datenschutzhinweis/">Privacy policy</a><br />
 				<a href="https://www.fh-potsdam.de/impressum/">Imprint</a>
 			</p>
     </footer>

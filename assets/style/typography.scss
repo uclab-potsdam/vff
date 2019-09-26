@@ -50,12 +50,25 @@ a:hover h3 {
 }
 
 .winner {
-	text-transform: uppercase;
 	background-color: $color-accent;
-	padding: $spacing / 6;
-	font-family: $font-headline;
-	letter-spacing: 0.1em;
-	font-size: 1.8rem;
+	padding: $spacing / 4 0;
+
+	span {
+		line-height: 1;
+
+		&.label {
+			text-transform: uppercase;
+			font-family: $font-headline;
+			letter-spacing: 0.1em;
+			font-size: 1.8rem;
+
+			i {
+				font-size: 0.8em;
+				transform: rotate(20deg);
+				position: absolute;
+			}
+		}
+	}
 }
 
 h4, .h4 strong, h5, h6 {
