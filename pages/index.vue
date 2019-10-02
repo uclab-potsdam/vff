@@ -19,18 +19,18 @@
         While climate change is a complex phenomenon with severe impacts for people and the environment, it is a human-made development, the trajectory of which can still be altered. The complexity of climate change requires new methods for making sense of scientific insights and communicating possible paths for action to various stakeholders and citizens. To better understand the dynamics of climate change and inform policy change, visualization is widely recognized as an indispensable tool for analysis and communication.
       </p>
       <p>
-        Over the last few years a broad range of climate visualizations have already been created by scientists, journalists, designers, developers and artists, some of which were targeted at the public, while many are hidden in academic papers and reports requiring expert knowledge. Considering the severity and complexity of the climate crisis, we feel there is a need to up the game for visualization creators. With this competition we seek to put a spotlight on the ingenuity and impact that well-crafted data visualizations can have to communicate the causes and impacts of climate change and inform personal and political action.
+        Over the last few years, a broad range of climate visualizations has already been created by scientists, journalists, designers, developers and artists, some of which were targeted at the public, while many are hidden in academic papers and reports requiring expert knowledge. Considering the severity and complexity of the climate crisis, we feel there is a need to up the game for visualization creators. With this competition, we seek to put a spotlight on the ingenuity and impact that well-crafted data visualizations can have to communicate the causes and impacts of climate change and inform personal and political action.
       </p>
       <p>
         To take part in the competition, submit your climate visualization project that is
       </p>
       <ul>
         <li><strong>innovative:</strong> The data visualization employs original and creative ways of representing the complexities of climate change and its impacts.</li>
-        <li><strong>understandable:</strong> The visual encodings are comprehensible for the intended audience and their interaction design is inviting its use.</li>
+        <li><strong>understandable:</strong> The visual encodings are comprehensible for the intended audience, and their interaction design is inviting its use.</li>
         <li><strong>actionable:</strong> The visualization offers insights that can directly inform and encourage personal and/or political transformations.</li>
       </ul>
       <p>
-        The submission is simple: you share basic information about the visualization including title, description, project team, publication date, a weblink, and type (academic & government, commercial, journalistic, independent). If the project is not in English, a description of the visualization's content is necessary. After the submission deadline our international jury of experienced climate scientists, communicators, and activists will review the submissions according to above criteria, and choose the winners. Winners can earn prizes of up to 500&#8239;€.<p>
+        The submission is simple: you share basic information about the visualization including title, description, project team, publication date, a web link, and type (academic & government, commercial, journalistic, independent). If the project is not in English, a description of the visualization's content is necessary. After the submission deadline, our international jury of experienced climate scientists, communicators, and activists will review the submissions according to the above criteria, and choose the winners. Winners can earn prizes of up to 500&#8239;€.<p>
       </p>
     </section>
     <section>
@@ -75,13 +75,13 @@
         <li>visualizations created by the organizers (ᴜᴄʟᴀʙ) are excluded from the competition</li>
         <li>projects can be submitted by teams, but we still need a single contact person</li>
         <li>multiple entries per person or team are permitted</li>
-        <li>with submitting a project you're confirming to have it published on this website</li>
+        <li>with submitting a project, you're confirming to have it published on this website</li>
         <li>it should be published within the last three years, i.e., after 20 Aug 2016</li>
       </ul>
     </section>
     <section>
       <h2><span>Who are we</span></h2>
-      <p>We are a <a href="http://uclab.fh-potsdam.de">visualization research group</a> at the <a href="https://www.fh-potsdam.de/">University of Applied Sciences Potsdam</a>. Our work revolves around data visualization with a particular focus on the challenges and questions arising from social, cultural, and technological transformations. While one of our recent projects focuses on climate change scenarios, we feel there is a broader need to contribute to the growing awareness and ongoing discussions about climate change via well-designed visualizations. Climate change poses new challenges for each and everyone of us and requires transformations in all sectors of our lives. With this competition, we hope to achieve an open process of knowledge transfer in which innovative visualizations inspire people to join in the climate movement and explore paths towards a more sustainable future.</p>
+      <p>We are a <a href="http://uclab.fh-potsdam.de">visualization research group</a> at the <a href="https://www.fh-potsdam.de/">University of Applied Sciences Potsdam</a>. Our work revolves around data visualization with a particular focus on the challenges and questions arising from social, cultural, and technological transformations. While one of our recent projects focuses on climate change scenarios, we feel there is a broader need to contribute to the growing awareness and ongoing discussions about climate change via well-designed visualizations. Climate change poses new challenges for each and every one of us and requires transformations in all sectors of our lives. With this competition, we hope to achieve an open process of knowledge transfer in which innovative visualizations inspire people to join in the climate movement and explore paths towards a more sustainable future.</p>
 			<p>If you have any questions, feel free to contact us: <a href="&#0109;&#097;&#0105;&#0108;&#0116;&#0111;&#058;&#0118;&#0102;&#0102;&#064;&#0102;&#0104;&#045;&#0112;&#0111;&#0116;&#0115;&#0100;&#097;&#0109;&#046;&#0100;&#0101;">&#0118;&#0102;&#0102;&#064;&#0102;&#0104;&#045;&#0112;&#0111;&#0116;&#0115;&#0100;&#097;&#0109;&#046;&#0100;&#0101;</a></p>
     </section>
     <footer>
