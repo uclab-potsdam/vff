@@ -6,7 +6,7 @@
     </header>
     <section>
       <p>
-        From 20–27 September 2019, millions of people worldwide will join the young climate protesters in a <a href="https://globalclimatestrike.net">global climate strike</a> to fight for climate justice. To support their cause, we are launching an international competition to gather state-of-the-art visualizations of climate change that were created in the last three years. Winners will be selected by an international jury of climate scientists, communicators, and activists. All submissions including infographics, animations, and interactive visualizations that comply with the requirements will be listed on this website.
+        From 20–27 September 2019, millions of people worldwide joined the young climate protesters in a <a href="https://globalclimatestrike.net">global climate strike</a> to fight for climate justice. To support their cause, we carried out an international competition to gather state-of-the-art visualizations of climate change that were created in the last three years. The winners have been selected by an international jury of climate scientists, communicators, and activists. You can find with all other qualifying submissions including infographics, animations, and interactive visualizations below.
       </p>
     </section>
     <section>
@@ -90,7 +90,7 @@
 				<a class="no-highlight" href="https://www.fh-potsdam.de"><img alt="FHP logo" style="width:12rem; margin:.75rem 1.5rem .75rem 0;" src="~/assets/fhp.svg" /></a>
 			</p>
       <p>
-        <a href="http://uclab.fh-potsdam.de/vff/presskit.zip">Presskit</a><br />
+        <a href="http://uclab.fh-potsdam.de/vff/presskit.zip">Press kit</a><br />
 				<a href="https://www.fh-potsdam.de/datenschutzhinweis/">Privacy policy</a><br />
 				<a href="https://www.fh-potsdam.de/impressum/">Imprint</a>
 			</p>
