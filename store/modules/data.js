@@ -1,6 +1,7 @@
 import axios from 'axios'
-import { isUndefined, get, map, compact, fromPairs, uniq, sortBy } from 'lodash'
+import { isUndefined, map, uniq } from 'lodash'
 import showdown from 'showdown'
+import { csvParse } from 'd3-dsv'
 
 const converter = new showdown.Converter()
 
@@ -10,20 +11,7 @@ const STATUS_SUCCESS = 'SUCCESS'
 const STATUS_ERROR = 'ERROR'
 
 // Path where the data is located
-const url = 'https://spreadsheets.google.com/feeds/list/1ZFourOHLVe2c5MPxOlW4x85wRFXZuWkbOrTLqV3ND5k/od6/public/values?alt=json'
-
-const columns = [
-  // Path in entry, key, parse
-  ['gsx$id', 'key', false],
-  ['gsx$winner', 'winner', false],
-  ['gsx$organization', 'organisation', true],
-  ['gsx$country', 'country', false],
-  ['gsx$title', 'title', false],
-  ['gsx$team', 'credits', true],
-  ['gsx$type', 'type', false],
-  ['gsx$weblink', 'link', false],
-  ['gsx$description', 'description', false]
-]
+const url = './data.csv'
 
 const state = () => {
   return {
@@ -35,16 +23,10 @@ const state = () => {
 
 export const getters = {
   entries: state => {
-    return sortBy(compact(map(get(state.datum, ['feed', 'entry'], []), entry => {
-      return fromPairs(map(columns, keys => {
-        const content = get(entry, [keys[0], '$t'])
-        return [keys[1], keys[2] ? converter.makeHtml(content) : content]
-      }))
-    })), entry => {
-      return !entry['winner']
-    })
+    return state.datum
   },
   categories: (state, getters) => {
+    console.log(getters.entries, uniq(map(getters.entries, 'type')))
     return uniq(map(getters.entries, 'type'))
   }
 }
@@ -69,7 +51,18 @@ const actions = {
       commit('LOAD_DATA', { status: STATUS_LOADING })
       axios.get(url)
         .then(response => {
-          commit('LOAD_DATA', { status: STATUS_SUCCESS, datum: response.data })
+          const datum = csvParse(response.data).map(d => {
+            return {
+              ...d,
+              key: +d.key,
+              winner: d.winner === 'TRUE',
+              score: +d.score,
+              organization: converter.makeHtml(d.organization),
+              credits: converter.makeHtml(d.credits)
+
+            }
+          })
+          commit('LOAD_DATA', { status: STATUS_SUCCESS, datum })
         })
         .catch(error => {
           commit('LOAD_DATA', { status: STATUS_ERROR, message: error })

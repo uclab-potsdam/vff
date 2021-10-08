@@ -3,7 +3,8 @@
     <header class="gallery-header">
       <ul class="filter">
         <li
-          v-for="category in categories"
+          v-for="(category, i) in categories"
+          :key="i"
           @click="changeCategory(category)"
           :class="{ clickable: true, isActive: selectedCategory === category }"
           v-html="category" />
